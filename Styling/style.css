@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #a3a0a0;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.4s ease-in-out;
+}
+
+.car-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.car-link:hover {
+    text-decoration: underline;
+}
+
+img:hover {
+    transform: scale(1.8);
+}
+
+
